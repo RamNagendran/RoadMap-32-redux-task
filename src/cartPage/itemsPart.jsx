@@ -17,7 +17,7 @@ export default function ItemsPart() {
                 return (
                     <div key={index} style={{ marginBottom: "30px", borderTop: "1px solid lightgrey", padding: "10px" }} className="d-flex flex-column align-items-start">
                         <div style={{ display: "flex" }} className="w-100" >
-                            <img style={{ marginRight: "8px", borderRadius: "8px", border: "4px solid lightgrey", padding: "5px" }} src={items?.thumbnail} height={150} width={150} />
+                            <img alt="thumbnail" style={{ marginRight: "8px", borderRadius: "8px", border: "4px solid lightgrey", padding: "5px" }} src={items?.thumbnail} height={150} width={150} />
                             <div style={{ width: "100%" }}>
                                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }} >
                                     <div>

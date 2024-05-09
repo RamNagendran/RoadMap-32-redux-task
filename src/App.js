@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React from 'react';
 import CartPage from './cartPage';
 
 function App() {
